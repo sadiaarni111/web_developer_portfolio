@@ -101,3 +101,71 @@ nav a{
     line-height: 30px; 
     margin-bottom: 30px;
 }
+
+/* main section related styles */
+
+/* about me  related styles */
+
+
+/* what i do related styles */
+
+
+
+/* summary related styles */
+
+
+
+
+/* footer related styles */
+.footer{
+    /* display: inline-flexbox; */
+    background: #FFF8F3;
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    padding: 130px 200px;   
+}
+
+.footer-col{
+    width: 50%;
+}
+
+.footer-left-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-left-description{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 24px;    
+}
+
+.footer-left-images a{
+    margin-right: 24px;
+
+}
+
+.footer-right-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.forms input, textarea{
+    display: block;
+    color: #474747;
+    font-size: 16px;
+    background: #FFF;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+
+}
